@@ -40,9 +40,11 @@ Sistema de punto de venta para una juguetería, que permite gestionar productos 
 Al iniciar sesión, el sistema muestra un CAPTCHA visual generado con el componente del **Equipo 2**  
 🔗 [https://github.com/FanyBr07/ComponenteVisual](https://github.com/FanyBr07/ComponenteVisual)
 
-El botón de inicio de sesión **solo se activa cuando el CAPTCHA es validado correctamente**, lo que mejora la seguridad de acceso al sistema.  
-📸 ![CAPTCHA y login](<img width="518" height="655" alt="Vista Sesion" src="https://github.com/user-attachments/assets/f5a31996-cd64-4125-a5e5-eecfbfe84c76" />
-)
+El botón de inicio de sesión **solo se activa cuando el CAPTCHA es validado correctamente**, lo que mejora la seguridad de acceso al sistema.
+
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/2135638d-cb7a-44bc-99cf-d73b572fca4c" width="400" />
+</p>
 
 ---
 
@@ -57,8 +59,15 @@ El sistema define dos tipos de usuarios con accesos diferenciados:
 - Asigna cuentas de inicio de sesión a nuevos empleados.
 - Accede a herramientas administrativas y base de datos desde interfaz.
 - Puede consultar y modificar los datos de ventas.
+  
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/ca1ba1fe-840a-43a3-bd3a-4779134db122" width="400" style="margin-right: 20px;" />
+  <img src="https://github.com/user-attachments/assets/872a234f-e757-4c5c-a07e-82998331ab3a" width="400" />
+</p>
 
-📸 ![Vista del gerente](img/mysql-productos.png)
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/b76e7c9a-9ff6-4b47-9dfa-b9fdb811c8b6" width="400" />
+</p>
 
 #### 💼 Cajero
 - Solo puede acceder al **módulo de ventas**.
@@ -67,7 +76,9 @@ El sistema define dos tipos de usuarios con accesos diferenciados:
 - Genera automáticamente un **ticket o factura de venta en PDF**.
 - No puede editar ni consultar datos de otros módulos.
 
-📸 ![Vista del cajero - ventas](img/interfaz-ventas.png)
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/b64e9f64-2379-45a9-8c0e-c09e7c8f28be" width="400" />
+</p>
 
 ---
 
@@ -81,7 +92,9 @@ Desde el panel del **Gerente**, se pueden administrar productos:
 
 Los productos están clasificados por nombre, estado, precio y stock.
 
-📸 ![Gestión de productos](img/mysql-productos.png)
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/3b4a4a57-159b-4b8d-821e-f8e54bb75c53" width="500" />
+</p>
 
 ---
 
@@ -95,7 +108,9 @@ La interfaz de ventas, usada por el **Cajero**, permite:
 - Calcular subtotal, cambio y total.
 - Generar el ticket de venta.
 
-📸 ![Interfaz de ventas](img/interfaz-ventas.png)
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/6ef3447a-0eb6-4c96-8f28-616355fc010e" width="500" />
+</p>
 
 ---
 
@@ -110,7 +125,9 @@ Para generar el PDF se utiliza la librería **iText 5.5.12** (`itextpdf-5.5.12.j
 
 > Esta factura actúa como comprobante que puede ser impreso por el cliente. En esta implementación no se envía por correo electrónico, únicamente se genera localmente en el equipo del cajero.
 
-📸 ![Ticket de venta generado](img/ticket-generado.png)
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/e387a873-1449-46a1-a5a0-62645f564cd9" width="500" />
+</p>
 
 ---
 
